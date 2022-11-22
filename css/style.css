@@ -3,6 +3,7 @@
     font-family: 'Inter', sans-serif;
     --primary-color: #18162D;
     --secondary-color: #3579F4;
+    --prefooter-color: #5591FF;
     --first-text-color: rgba(24, 22, 45, 0.9);
     --service-color: #000000;
     --copyright-color: rgba(255, 255, 255, 0.4);
@@ -11,10 +12,138 @@
 }
 
 h2 {
-    font-size: 2rem;
+    
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     color:var(--secondary-color);
 }
 
-.header-class {
+li {
+    list-style-type: none;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.description-class {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1.9rem;
+    color: var(--primary-color);
+}
+
+.intro-class {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    color: var(--primary-color);
+}
+
+.shead-class{
     font-family: 'Mulish', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.menu-class{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--footer-color);
+}
+
+.info-class{
+    
+}
+
+.button-class{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.opser-class{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+        font-size: 3.4rem;
+        color: var(--primary-color);
+        text-decoration: none;
+}
+
+.opserel-class{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+    color: var(--service-color);
+    text-align: center;
+}
+
+.contact-class{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 3.4rem;
+    color: var(--footer-color);
+    
+}
+
+.contacttext-class{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    color: var(--footer-color);
+    background-color: var(--prefooter-color);
+}
+
+.send-class{
+    background-color: var(--footer-color);
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--message-color);
+    text-transform: uppercase;
+
+}
+
+.pre-footer-section-class{
+    background-color: var(--prefooter-color);
+    border-radius: 10px;
+    border-bottom: solid var(--prefooter-color);
+}
+
+.footer-text-class{
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: -0.1rem;
+    color:var(--footer-color);
+}
+
+.footer-background-class{
+    border-top: solid var(--footer-color);
+    background-color: var(--primary-color);
+    
+}
+
+.copyright-class{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--message-color)
+}
+
+.contacttextpolicy-class{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    text-decoration: underline;
+    color: var(--footer-color);
+    background-color: var(--prefooter-color);
+}
+
+.border{
+    border-bottom: 3px solid var(--secondary-color);
 }
