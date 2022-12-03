@@ -27,6 +27,10 @@ a{
     text-decoration: none;
 }
 
+
+
+.in-put::placeholder {color: var(--footer-color);}
+
 .description-class {
     font-weight: 400;
     font-size: 2.2rem;
@@ -93,13 +97,25 @@ a{
     
 }
 
-.contacttext-class{
+.contacttext-class::placeholder {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.25rem;
     color: var(--footer-color);
     background-color: var(--prefooter-color);
 }
+
+.contacttext-class {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    color: var(--footer-color);
+    background-color: var(--prefooter-color);
+}
+
+.in-put::placeholder {
+    color: var(--footer-color);
+  }
 
 .send-class{
     background-color: var(--footer-color);
