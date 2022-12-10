@@ -11,12 +11,14 @@
     --message-color: #8C8C8C;
 }
 
+
 textarea{
     border-radius: 1rem;
     margin-bottom: 2.5rem;
 }
 
 input{
+    border: 0;
     border-radius: 1rem;
     margin-top: 4.956rem;
     margin-bottom: 1.5rem;
@@ -119,6 +121,7 @@ a{
 
 .contact-class{
     padding-top: 10.2rem;
+    padding-bottom: 2rem;
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 3.4rem;
@@ -136,6 +139,7 @@ a{
 
 
 .contacttext-class {
+    border:0;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 400;
@@ -143,27 +147,19 @@ a{
     line-height: 1.25rem;
     color: var(--footer-color);
     background-color: var(--prefooter-color);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .contacttext2-class {
-    padding-top: 1.9rem;
-    padding-bottom: 6.1rem;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.25rem;
-    color: var(--footer-color);
-    background-color: var(--prefooter-color);
-}
-
-.contacttext3-class {
-    padding-top: 1.9rem;
     padding-bottom: 3.5rem;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.25rem;
     color: var(--footer-color);
-    background-color: var(--prefooter-color);
+    background-color: var(--secondary-color);
 }
+
 
 
 
@@ -189,7 +185,7 @@ a{
 
 .pre-footer-section-class{
     margin-bottom: -6.2rem;
-    background-color: var(--prefooter-color);
+    background-color: var(--secondary-color);
     border-radius: 10px;
     
 }
@@ -244,4 +240,8 @@ a{
 
 .li2-footer-class{
     padding-bottom: 1.7rem;
+}
+
+.load-class{
+    margin-top: 4.96rem;
 }
