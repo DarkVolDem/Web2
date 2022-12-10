@@ -11,23 +11,43 @@
     --message-color: #8C8C8C;
 }
 
+textarea{
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+input{
+    border-radius: 1rem;
+    margin-top: 4.956rem;
+    margin-bottom: 1.5rem;
+}
+
 h2 {
     
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 2.5rem;
     color:var(--secondary-color);
+    margin-bottom: 2.5rem;
 }
 
 li {
     list-style-type: none;
+    
   }
 
 a{
     text-decoration: none;
 }
 
+.ul1-footer-class{
+    margin-top: 8.7rem;
+    margin-bottom: 3.4rem;
+}
 
+.li-footer-class{
+    padding-bottom: 3rem;
+}
 
 .in-put::placeholder {color: var(--footer-color);}
 
@@ -36,6 +56,8 @@ a{
     font-size: 2.2rem;
     line-height: 1.9rem;
     color: var(--primary-color);
+    margin-top: 3.95rem;
+    margin-bottom: 4rem;
 }
 
 .intro-class {
@@ -43,6 +65,8 @@ a{
     font-size: 1.6rem;
     line-height: 1.5rem;
     color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
 }
 
 .shead-class{
@@ -50,6 +74,7 @@ a{
     font-size: 3.8rem;
     font-weight: 600;
     color: var(--primary-color);
+    margin-top: 5.2rem;
 }
 
 .menu-class{
@@ -78,6 +103,8 @@ a{
         font-size: 3.4rem;
         color: var(--primary-color);
         text-decoration: none;
+        margin-top: 10.96rem;
+        margin-bottom: 3rem;
 }
 
 .opserel-class{
@@ -87,6 +114,7 @@ a{
     font-size: 2.2rem;
     color: var(--service-color);
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .contact-class{
@@ -106,8 +134,10 @@ a{
     background-color: var(--prefooter-color);
 }
 
+
 .contacttext-class {
-    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.25rem;
@@ -115,11 +145,40 @@ a{
     background-color: var(--prefooter-color);
 }
 
+.contacttext2-class {
+    padding-top: 1.9rem;
+    padding-bottom: 6.1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    color: var(--footer-color);
+    background-color: var(--prefooter-color);
+}
+
+.contacttext3-class {
+    padding-top: 1.9rem;
+    padding-bottom: 3.5rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    color: var(--footer-color);
+    background-color: var(--prefooter-color);
+}
+
+
+
 .in-put::placeholder {
     color: var(--footer-color);
   }
 
 .send-class{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.1rem;
+    padding-left: 8.9rem;
+    padding-right: 8.9rem;
+    border-radius: 1rem;
     background-color: var(--footer-color);
     font-weight: 700;
     font-size: 1.6rem;
@@ -144,16 +203,21 @@ a{
 
 .footer-background-class{
     background-color: var(--primary-color);
-    border-radius: 35px 35px 0px 0px;
+    border-radius: 3.5rem 3.5rem 0rem 0rem;
 }
 
 .copyright-class{
     font-weight: 400;
     font-size: 1.4rem;
-    color: var(--message-color)
+    color: var(--message-color);
+    padding-top: 11.2rem;
+    padding-bottom: 5.3rem;
 }
 
 .contacttextpolicy-class{
+
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.25rem;
@@ -163,7 +227,9 @@ a{
 }
 
 .border{
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 0.3rem solid var(--secondary-color);
+    padding-bottom: 2.45rem;
+    margin-top: 8.09rem;
 }
 
 .class-image-prefooter{
@@ -173,4 +239,9 @@ a{
 
 .class-menu-footer{
     padding-top: 6.2rem;
+    margin-bottom: 6.4rem;
+}
+
+.li2-footer-class{
+    padding-bottom: 1.7rem;
 }
