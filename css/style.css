@@ -39,6 +39,7 @@ li {
   }
 
 a{
+    color: inherit;
     text-decoration: none;
 }
 
@@ -80,6 +81,7 @@ a{
 }
 
 .menu-class{
+    
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.2rem;
@@ -142,6 +144,7 @@ a{
     border:0;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-left: 2.9rem;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.25rem;
@@ -180,7 +183,7 @@ a{
     font-size: 1.6rem;
     color: var(--message-color);
     text-transform: uppercase;
-
+    border:0;
 }
 
 .pre-footer-section-class{
@@ -211,7 +214,6 @@ a{
 }
 
 .contacttextpolicy-class{
-
     margin-top: 2.5rem;
     margin-bottom: 3.5rem;
     font-weight: 400;
