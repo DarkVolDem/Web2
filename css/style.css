@@ -34,28 +34,12 @@ h1{
     padding-right: 2.7rem;
 }
 
-@media (min-width: 1300px){
-    section{
-        padding-left: 13.2rem;
-        padding-right: 13.2rem;
-    }
-    
-    header{
-        padding-left: 13.2rem;
-        padding-right: 13.2rem;
-    }
-    
-    footer{
-        padding-left: 13.2rem;
-        padding-right: 13.2rem;
-    }
-    
-    h1{
-        padding-left: 13.2rem;
-        padding-right: 13.2rem;
-    }
-
+.headerclass{
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 textarea{
     border-radius: 1rem;
@@ -305,4 +289,44 @@ a{
 
 .load-class{
     margin-top: 4.96rem;
+}
+
+.nav-class{
+    display: none;
+}
+
+@media (min-width: 1300px){
+    section{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    header{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    footer{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    h1{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+
+    .headerclass{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu-btn-class{
+        display: none;
+    }
+
+    .nav-class{
+        display: flex;
+        justify-content: space-between;
+    }
 }
