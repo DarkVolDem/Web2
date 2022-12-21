@@ -13,6 +13,7 @@
 
 hr{
     display:none;
+    margin-top: 9.206rem;
 }
 
 p{
@@ -122,6 +123,7 @@ a{
     font-weight: 600;
     color: var(--primary-color);
     margin-top: 5.2rem;
+    padding-left: 0rem;
 }
 
 .bload-section{
@@ -138,6 +140,7 @@ a{
     line-height: 2.2rem;
     letter-spacing: -0.01em;
     text-transform: uppercase;
+    color:var(--footer-color);
 }
 
 .menu-footer-class{
@@ -374,7 +377,7 @@ a{
 
 .border{
     border-bottom: 0rem;
-
+    margin-right: 3rem;
 }
 
 .threediv{
@@ -444,7 +447,7 @@ a{
         height: 3px;
         flex-grow: 1;
         background-color: var(--secondary-color);
-        margin-top: 2.4rem;
+        margin-top: 9.206rem;
         border-radius: 20px;
     }
     
