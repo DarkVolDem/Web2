@@ -11,6 +11,22 @@
     --message-color: #8C8C8C;
 }
 
+.labelclass{
+    width: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+.wsa{
+    display: none;
+}
+
+.telega{
+    display:none;
+}
+
 hr{
     display:none;
     margin-top: 9.206rem;
@@ -117,6 +133,8 @@ a{
     box-sizing: border-box;
 }
 
+
+
 .shead-class{
     font-family: 'Mulish', sans-serif;
     font-size: 3.8rem;
@@ -195,6 +213,7 @@ a{
     text-align: center;
     box-shadow: -4px 4px 16px rgb(0 0 0 / 10%);
     padding: 3.7rem 2rem;
+    max-width: 300px;
 }
 
 .contact-class{
@@ -217,6 +236,7 @@ a{
 
 
 .contacttext-class {
+    width:100%;
     border:0;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -231,6 +251,7 @@ a{
 }
 
 .contacttext2-class {
+    width:100%;
     padding-bottom: 3.5rem;
     font-weight: 400;
     font-size: 1.6rem;
@@ -327,9 +348,8 @@ a{
     display: none;
 }
 
-.img-garage-boat{
-    position:absolute;
-    right: 0;
+.hideme{
+    margin-top: 5rem;
 }
 
 .ul-op-class{
@@ -340,13 +360,234 @@ a{
     margin-bottom: 11rem;
 }
 
-.img-prefooter{
-    position: absolute;
-    right: 0;
-    margin-top: 13.8rem;
+.threeimg{
+    width:100%;
+    height: 100%;
+    max-width: 705px;
+    max-height: 273px;
 }
 
+.img-prefooter{
+    margin-bottom: 6rem;
+    width: 100%;
+    height: 100%;
+    max-width: 705px;
+    max-height: 520px;
+}
+.formclass{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+
+@media (min-width: 893px){
+    .ul-op-class{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 11rem;
+    }
+}
+
+
+@media (min-width: 1165px){
+    section{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    header{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    footer{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    h1{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+
+    p{
+        max-width: 44.5rem;
+    }
+
+    nav{
+        margin-left: 8.5rem;
+    }
+
+    .formclass{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .img-prefooter{
+        position: absolute;
+        right: 0;
+    }
+
+    .wsa{
+        display: inline;
+    }
+    
+    .telega{
+        display: inline;
+    }
+
+.border{
+    border-bottom: 0rem;
+    margin-right: 3rem;
+}
+
+.threediv{
+    display: flex;
+        flex-wrap: row nowrap;
+        justify-content: flex-start;
+        align-items:flex-start;
+}
+    .section-img-rightborder-class{
+        display: flex;
+        flex-wrap: row nowrap;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+
+
+    .headerclass{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu-btn-class{
+        display: none;
+    }
+
+    .menu2-btn-class{
+        display: none;
+    }
+
+    .nav-class{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .menu2-class{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    }
+
+    .ul-menu-class{
+        display:flex;
+        margin-left: 4.2rem;
+        min-width: 350px;
+        justify-content: space-between;
+    }
+
+    .header-div-class{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .ul-op-class{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        margin-bottom: 11rem;
+    }
+
+    .container-shipment__line {
+        display: block;
+        height: 3px;
+        flex-grow: 1;
+        background-color: var(--secondary-color);
+        margin-top: 9.206rem;
+        border-radius: 20px;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .footer-subcontent{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        min-width: 500px;
+    }
+
+    .li-social{
+        margin-left:2rem ;
+    }
+
+    .footer-social{
+        margin-left: 3rem;
+    }
+    
+    .nav-footer{
+        margin-top: 7.5rem;
+    }
+
+    .prefooter-div{
+        display: flex;
+        flex-flow: nowrap;
+        padding-bottom: 13.4rem;
+    }
+
+    .noimage-prefooter{
+        margin-right: 4rem;
+    }
+
+    .labelclass{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+    .img-prefooter {
+        margin-bottom: 6rem;
+        width: 100%;
+        height: 100%;
+        max-width: 585px;
+        max-height: 520px;
+    }
+
+}
+
+
+
+
 @media (min-width: 1300px){
+
+    .hideme{
+        display:none;
+    }
+
+    .img-garage-boat{
+        position:absolute;
+        right: 0;
+    }
+
+    
+
     section{
         padding-left: 13.2rem;
         padding-right: 13.2rem;
@@ -399,7 +640,189 @@ a{
         justify-content: space-between;
     }
     
+    .img-prefooter {
+        margin-bottom: 6rem;
+        width: 100%;
+        height: 100%;
+        max-width: 705px;
+        max-height: 520px;
+    }
+
     .menu-btn-class{
+        display: none;
+    }
+
+    .menu2-btn-class{
+        display: none;
+    }
+
+    .nav-class{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ul-op-class{
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .menu2-class{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    }
+
+    .ul-menu-class{
+        display:flex;
+        margin-left: 4.2rem;
+        min-width: 350px;
+        justify-content: space-between;
+    }
+
+    .header-div-class{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .ul-op-class{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        margin-bottom: 11rem;
+        max-width: 1200px;
+    }
+
+    .container-shipment__line {
+        display: block;
+        height: 3px;
+        flex-grow: 1;
+        background-color: var(--secondary-color);
+        margin-top: 9.206rem;
+        border-radius: 20px;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .footer-subcontent{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        min-width: 500px;
+    }
+
+    .li-social{
+        margin-left:2rem ;
+    }
+
+    .footer-social{
+        margin-left: 3rem;
+    }
+    
+    .nav-footer{
+        margin-top: 7.5rem;
+    }
+
+    .prefooter-div{
+        display: flex;
+        flex-flow: nowrap;
+        padding-bottom: 13.4rem;
+    }
+
+    .noimage-prefooter{
+        margin-right: 4rem;
+    }
+
+    .labelclass{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+}
+
+
+@media (min-width: 1380px){
+
+    .hideme{
+        display:none;
+    }
+
+    .img-garage-boat{
+        position:absolute;
+        right: 0;
+    }
+
+    section{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    header{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    footer{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+    
+    h1{
+        padding-left: 13.2rem;
+        padding-right: 13.2rem;
+    }
+
+    p{
+        max-width: 44.5rem;
+    }
+
+    nav{
+        margin-left: 8.5rem;
+    }
+
+.border{
+    border-bottom: 0rem;
+    margin-right: 3rem;
+}
+
+.threediv{
+    display: flex;
+        flex-wrap: row nowrap;
+        justify-content: flex-start;
+        align-items:flex-start;
+}
+    .section-img-rightborder-class{
+        display: flex;
+        flex-wrap: row nowrap;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+
+
+    .headerclass{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .img-prefooter{
+        position: absolute;
+        right: 0;
+        margin-bottom: 4.3rem;
+    }
+
+    .menu-btn-class{
+        display: none;
+    }
+
+    .menu2-btn-class{
         display: none;
     }
 
