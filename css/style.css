@@ -278,6 +278,8 @@ a{
     background-color: var(--footer-color);
     font-weight: 700;
     font-size: 1.6rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(142,36,63,1) 31%, rgba(144,33,60,1) 59%, rgba(0,212,255,1) 100%);
+
     color: var(--message-color);
     text-transform: uppercase;
     border:0;
