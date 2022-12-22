@@ -54,13 +54,14 @@ p{
 section{
     padding-left: 2.7rem;
     padding-right: 2.7rem;
+    max-width: 1440px;
 }
 
 header{
     padding-left: 2.7rem;
     padding-right: 2.7rem;
     margin-top: 3rem;
-    
+    max-width: 1440px;
 }
 
 footer{
@@ -420,9 +421,6 @@ a{
         row-gap: 2.3rem;
         column-gap: 0.954rem;
     }
-}
-
-@media (min-width: 893px){
 
     .ul-op-class{
         display: grid;
@@ -435,7 +433,7 @@ a{
 }
 
 
-@media (min-width: 1165px){
+@media (min-width: 1024px){
 
     .hideme{
         display: block;
@@ -610,10 +608,8 @@ a{
 
     .img-prefooter {
         margin-bottom: 6rem;
-        width: 100%;
-        height: 100%;
-        max-width: 585px;
-        max-height: 520px;
+        height: auto;
+        max-width: 500px;
     }
 
 }
@@ -621,7 +617,7 @@ a{
 
 
 
-@media (min-width: 1500px){
+@media (min-width: 1440px){
 
 
     .img-garage-boat{
