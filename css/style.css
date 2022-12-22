@@ -13,6 +13,7 @@
 
 .loaddiv{
     display: grid;
+    justify-items: center;
 }
 
 .hideme{
@@ -48,7 +49,7 @@ hr{
 }
 
 p{
-    max-width: 44.5rem;
+    max-width: 60rem;
 }
 
 section{
@@ -171,6 +172,7 @@ a{
     margin-right: 3rem;
     flex-direction: column;
     max-width: 450px;
+    width: 100%;
 }
 
 .menu-class{
@@ -205,6 +207,7 @@ a{
     max-width: 43rem;
     row-gap: 2.3rem;
     column-gap: 0.954rem;
+    
 }
 
 .button-class{
@@ -232,6 +235,7 @@ a{
     box-shadow: -4px 4px 16px rgb(0 0 0 / 10%);
     padding: 3.7rem 2rem;
     max-width: 300px;
+    width: 100%;
 }
 
 .contact-class{
@@ -266,6 +270,7 @@ a{
     background-color: var(--prefooter-color);
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    box-sizing: border-box;
 }
 
 .contacttext2-class {
@@ -308,7 +313,7 @@ a{
     margin-bottom: -6.2rem;
     background-color: var(--secondary-color);
     border-radius: 10px;
-    
+    max-width: 100%;
 }
 
 .footer-text-class{
@@ -386,11 +391,12 @@ a{
 }
 
 .img-prefooter{
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
     width: 100%;
     height: 100%;
     max-width: 705px;
     max-height: 520px;
+    margin-top: 13.8rem;
 }
 .formclass{
     display: flex;
@@ -460,7 +466,7 @@ a{
     }
 
     p{
-        max-width: 44.5rem;
+        max-width: 60rem;
     }
 
     nav{
@@ -475,10 +481,7 @@ a{
         gap: 1rem;
     }
 
-    .img-prefooter{
-        position: absolute;
-        right: 0;
-    }
+
 
     .wsa{
         display: inline;
@@ -501,7 +504,7 @@ a{
 }
     .section-img-rightborder-class{
         display: flex;
-        flex-wrap: row nowrap;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items:flex-start;
     }
@@ -546,14 +549,7 @@ a{
         justify-content: space-between;
     }
 
-    .ul-op-class{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        flex-wrap: wrap;
-        justify-items: center;
-        gap: 2.5rem;
-        margin-bottom: 11rem;
-    }
+    
 
     .container-shipment__line {
         display: block;
@@ -606,16 +602,27 @@ a{
     align-items: flex-start;
     }
 
-    .img-prefooter {
-        margin-bottom: 6rem;
+    .img-prefooter{
+        max-width: 450px;
         height: auto;
-        max-width: 500px;
+        position: absolute;
+        right: 0;
+        margin-top: 17rem;
     }
 
 }
 
 
-
+@media(min-width:1310px){
+    .ul-op-class{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+        justify-items: center;
+        gap: 2.5rem;
+        margin-bottom: 11rem;
+    }
+}
 
 @media (min-width: 1440px){
 
@@ -648,7 +655,7 @@ a{
     }
 
     p{
-        max-width: 44.5rem;
+        max-width: 60rem;
     }
 
     nav{
@@ -817,7 +824,7 @@ a{
     }
 
     p{
-        max-width: 44.5rem;
+        max-width: 60rem;
     }
 
     nav{
@@ -953,4 +960,7 @@ a{
     align-items: flex-start;
     }
 
+}
+
+@media (min-width: 1440px){
 }
