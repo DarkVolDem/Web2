@@ -11,6 +11,11 @@
     --message-color: #8C8C8C;
 }
 
+.prefooter-div{
+    background-color: var(--secondary-color);
+    margin-bottom: -6.2rem;
+}
+
 .loaddiv{
     display: grid;
     justify-items: center;
@@ -325,6 +330,7 @@ a{
 }
 
 .footer-background-class{
+    margin-top: -6.2rem;
     background-color: var(--primary-color);
     border-radius: 3.5rem 3.5rem 0rem 0rem;
 }
@@ -976,11 +982,26 @@ a{
     
     .footer-background-class{
         margin: 0 auto;
+        margin-top: -6.2rem;
+    }
+
+    .img-prefooter{
+        position: relative;
+    }
+
+    
+    .img-garage-boat{
+        position: relative;
+        left: 80rem;
     }
 
     .pre-footer-section-class{
-        margin: -6.2rem auto;
+        margin: 0 auto;
+        margin-bottom: -6.2rem;
     }
 
+    .prefooter-div{
+        margin: 0 auto;
+    }
 
 }
