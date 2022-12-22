@@ -999,9 +999,7 @@ a{
     }
 
     
-    .img-garage-boat{
-        display: none;
-    }
+    
 
     .pre-footer-section-class{
         margin: 0 auto;
@@ -1021,9 +1019,17 @@ a{
         gap: 40rem;
     }
 
+    
+
+}
+
+@media (min-width: 1700px){
+    .img-garage-boat{
+        display: none;
+    }
     .img-garage-boat2{
         display: block;
         margin-left: 40rem;
+        margin-top: 10rem;
     }
-
 }
