@@ -963,4 +963,20 @@ a{
 }
 
 @media (min-width: 1440px){
+    section{
+        margin: 0 auto;
+    }
+    header{
+        margin: 0 auto;
+    }
+
+    .footer-background-class{
+        margin: 0 auto;
+    }
+
+    .pre-footer-section-class{
+        margin: -6.2rem auto;
+    }
+
+
 }
