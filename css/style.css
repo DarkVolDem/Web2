@@ -16,6 +16,12 @@
     margin-bottom: -6.2rem;
 }
 
+.footer-div{
+    background-color: var(--service-color);
+    margin-top: -6.2rem;
+    border-radius: 3.5rem 3.5rem 0rem 0rem;
+}
+
 .loaddiv{
     display: grid;
     justify-items: center;
@@ -1004,4 +1010,12 @@ a{
         margin: 0 auto;
     }
 
+    .footer-div{
+        margin:0 auto;
+    }
+
+    .footer-content{
+        justify-content: center;
+        gap: 40rem;
+    }
 }
