@@ -11,6 +11,19 @@
     --message-color: #8C8C8C;
 }
 
+.loaddiv{
+    display: grid;
+}
+
+.hideme{
+    display: none;
+}
+
+.menu-btn-class{
+    background-color: var(--footer-color);
+    border: 0;
+}
+
 .labelclass{
     width: 90%;
     display: flex;
@@ -26,6 +39,8 @@
 .telega{
     display:none;
 }
+
+
 
 hr{
     display:none;
@@ -44,11 +59,17 @@ section{
 header{
     padding-left: 2.7rem;
     padding-right: 2.7rem;
+    margin-top: 3rem;
+    
 }
 
 footer{
     padding-left: 2.7rem;
     padding-right: 2.7rem;
+}
+
+section{
+    overflow: hidden;
 }
 
 h1{
@@ -175,15 +196,11 @@ a{
     
 }
 
-.loaddiv{
-    display: grid;
-}
 
 .lib-class{
     padding-left: 2.7rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     max-width: 43rem;
     row-gap: 2.3rem;
     column-gap: 0.954rem;
@@ -350,14 +367,12 @@ a{
     display: none;
 }
 
-.hideme{
-    margin-top: 5rem;
-}
 
 .ul-op-class{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     flex-wrap: wrap;
+    justify-items: center;
     gap: 2.5rem;
     margin-bottom: 11rem;
 }
@@ -384,12 +399,35 @@ a{
     gap: 1rem;
 }
 
+@media (min-width: 425px){
+    .lib-class{
+        padding-left: 2.7rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 43rem;
+        row-gap: 2.3rem;
+        column-gap: 0.954rem;
+    }
+}
 
+@media (min-width: 768px){
+    .lib-class{
+        padding-left: 2.7rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        max-width: 43rem;
+        row-gap: 2.3rem;
+        column-gap: 0.954rem;
+    }
+}
 
 @media (min-width: 893px){
+
     .ul-op-class{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         flex-wrap: wrap;
         gap: 1.5rem;
         margin-bottom: 11rem;
@@ -398,6 +436,11 @@ a{
 
 
 @media (min-width: 1165px){
+
+    .hideme{
+        display: block;
+    }
+
     section{
         padding-left: 13.2rem;
         padding-right: 13.2rem;
@@ -509,6 +552,7 @@ a{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         flex-wrap: wrap;
+        justify-items: center;
         gap: 2.5rem;
         margin-bottom: 11rem;
     }
@@ -579,9 +623,6 @@ a{
 
 @media (min-width: 1500px){
 
-    .hideme{
-        display:none;
-    }
 
     .img-garage-boat{
         position:absolute;
@@ -691,6 +732,7 @@ a{
     .ul-op-class{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
         flex-wrap: wrap;
         gap: 2.5rem;
         margin-bottom: 11rem;
@@ -752,10 +794,6 @@ a{
 
 
 @media (min-width: 1380px){
-
-    .hideme{
-        display:none;
-    }
 
     .img-garage-boat{
         position:absolute;
@@ -861,6 +899,7 @@ a{
     .ul-op-class{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
         flex-wrap: wrap;
         gap: 2.5rem;
         margin-bottom: 11rem;
