@@ -11,6 +11,13 @@
     --message-color: #8C8C8C;
 }
 
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
 .img-garage-boat2{
     display: none;
 }
@@ -468,6 +475,7 @@ a{
     header{
         padding-left: 13.2rem;
         padding-right: 13.2rem;
+        margin-top: 3rem;
     }
     
     footer{
@@ -657,6 +665,7 @@ a{
     header{
         padding-left: 13.2rem;
         padding-right: 13.2rem;
+        margin-top: 3rem;
     }
     
     footer{
@@ -826,6 +835,7 @@ a{
     header{
         padding-left: 13.2rem;
         padding-right: 13.2rem;
+        margin-top: 3rem;
     }
     
     footer{
@@ -983,6 +993,7 @@ a{
     }
     header{
         margin: 0 auto;
+        
     }
 
     footer {
@@ -1033,3 +1044,116 @@ a{
         margin-top: 10rem;
     }
 }
+
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
+
+
+.menu2-class::selection{
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 140, 201);
+}
+
+.menu2-class:hover {
+    transform: scale(1.1);
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.fieldset-1 {
+    gap: 2rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.fieldset-2 {
+    gap: 2rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+
+.p-wrapper {
+    font-size: 3rem;
+    padding: 2rem;
+    color: var(--secondary-color);
+}
+legend {
+    font-size: 3rem;
+    padding: 2rem;
+    color: var(--secondary-color);
+}
+
+.button-class2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.checkboxes > input-wrapper > label:active{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(214, 161, 15, 0.845);
+}
+
+.button-class2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.input-wrapper {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
+    
+}
+
+.chek {
+    flex-direction: row-reverse;
+}
+
+.input-wrapper > input:focus {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(14, 231, 212);
+}
+
+.button-send {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: var(--prefooter-color);
+    cursor: pointer;
+}
+.button-send:hover  {
+    transform: scale(1.1);
+}
+
