@@ -13,10 +13,6 @@
 
 html, body { height: 100%;}
 
-body > footer {
-  position: sticky;
-  top: 100vh;
-}
 
 .img-garage-boat2{
     display: none;
@@ -1056,7 +1052,7 @@ body > footer {
 
 .menu2-class::selection{
     color: rgb(0, 0, 0);
-    background-color: rgb(240, 140, 201);
+    background-color: rgba(214, 161, 15, 0.845);
 }
 
 .menu2-class:hover {
@@ -1138,6 +1134,7 @@ legend {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     background-color: rgb(14, 231, 212);
+    width: 90%;
 }
 
 .button-send {
@@ -1157,3 +1154,6 @@ legend {
     transform: scale(1.1);
 }
 
+header{
+    margin-top: 3rem;
+}
