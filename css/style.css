@@ -1157,3 +1157,14 @@ legend {
 header{
     margin-top: 3rem;
 }
+
+legend{
+    float:none;
+    width:auto;
+    
+}
+
+fieldset{
+    border: 1px;
+    border-style: solid;
+}
