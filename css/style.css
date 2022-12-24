@@ -1077,7 +1077,7 @@ body > footer {
 .p-wrapper {
     font-size: 3rem;
     padding: 2rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 legend {
     font-size: 3rem;
