@@ -219,7 +219,7 @@ a{
 
 
 .lib-class{
-    padding-left: 2.7rem;
+    padding-left: 0rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     max-width: 43rem;
@@ -428,7 +428,7 @@ a{
 
 @media (min-width: 425px){
     .lib-class{
-        padding-left: 2.7rem;
+        padding-left: 0rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 43rem;
@@ -439,7 +439,7 @@ a{
 
 @media (min-width: 768px){
     .lib-class{
-        padding-left: 2.7rem;
+        padding-left: 0rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
