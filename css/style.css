@@ -228,7 +228,13 @@ a{
     
 }
 
+.tpsbts{
+    display: flex;
+}
 
+.pboats{
+    text-align: center;
+}
 
 .opser-class{
         font-family: 'Mulish', sans-serif;
